@@ -3,6 +3,7 @@ var b : Int = 3;
 var c : Int = 4;
 var d : Int = 5;
 var k : Float = 4.3f;
+var g : Float = 4.0f;
 
 //println(--b*a+c*d--);  =======>>  java answer = 24
 b -= 1;
@@ -13,16 +14,15 @@ d -= 1;
 println(a);
 a += 1;
 
-//println(-2*(a-k)+c);  =======>>  java answer = 6.6000004
-println(-2*(a-k)+c);
-
+//println(-2*(a-k)+c);  =======>>  java answer = 4.6000004
+println(-2*(g-k)+c);
 
 //println(c=c++);  =======>> java answer = 4
 println(c);
-
 
 //println(c=++c*a++);  =======>>  java answer = 15
 c+=1;
 println(c*a);                     
 a+=1;
+
 
