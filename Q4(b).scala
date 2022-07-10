@@ -2,9 +2,9 @@ def innerCalculate( ticketPrice: Int, attendance: Int) : Int = { return (attenda
 
 var incDecPrice = 5;
 var incDecAttendance = 20;
-println("Enter the normal ticket price: ");
+println("Enter the normal ticket price:");
 val ticketPrice : Int = scala.io.StdIn.readInt();
-println("Enter the attendance for Rs:" + ticketPrice + ": ");
+println("Enter the attendance:");
 val attendence : Int = scala.io.StdIn.readInt();
 
 var a = innerCalculate(ticketPrice, attendence); 
