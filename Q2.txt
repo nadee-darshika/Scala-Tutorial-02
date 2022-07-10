@@ -1,0 +1,11 @@
+Compare the Java and Scala Programming Languages.
+
+         > Scala is a combination of both functional & object oriented programming while Java is an object oriented language.
+         > In Scala, the code is less readable than Java.
+         > Conversion from source code to byte code is slower in Scala than Java.
+         > Java does not support operator overloading but Scala does.
+         > Scala variables are immutable by default while the Java variables are mutable by default.
+         > Static keyword is not support in Scala but Java does.
+         > Scala has no ++ ( increment operator) and -- ( decrement operator) but java support both of them.
+         
+         
